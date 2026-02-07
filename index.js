@@ -1,6 +1,24 @@
 const noBtn = document.getElementById("noBtn");
 const yesBtn = document.getElementById("yesBtn");
 
+const isMobile = window.innerWidth <= 480;
+
+noBtn.addEventListener("mouseenter", () => {
+  const x = isMobile ? Math.random() * 120 - 60 : Math.random() * 200 - 100;
+
+  const y = isMobile ? Math.random() * 50 - 25 : Math.random() * 80 - 40;
+
+  noBtn.style.transform = `translate(${x}px, ${y}px)`;
+});
+
+noBtn.addEventListener("click", () => {
+  const x = isMobile ? Math.random() * 120 - 60 : Math.random() * 200 - 100;
+
+  const y = isMobile ? Math.random() * 50 - 25 : Math.random() * 80 - 40;
+
+  noBtn.style.transform = `translate(${x}px, ${y}px)`;
+});
+
 noBtn.addEventListener("mouseenter", () => {
   const x = Math.random() * 200 - 100;
   const y = Math.random() * 80 - 40;
