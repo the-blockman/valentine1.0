@@ -27,8 +27,8 @@ yesBtn.addEventListener("click", () => {
           text-align:center;
         ">
           <h1 style="color:#ff4d6d;">
-            Alright 💖<br>
-            See you on Valentine’s 💘
+            Good girl 💖<br>
+            See you on Valentine’s princess💘
           </h1>
         </div>
       `;
